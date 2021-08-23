@@ -7,25 +7,24 @@ Documentación y ejemplos [aquí](https://wilnicho.github.io/jq-collapse.js).
 
 ¿Qué necesito?
 --------------
-Un navegador moderno y las dependencias de `jQuery` y `Bootstrap` en sus versiones correspondientes.
+Un navegador moderno y la dependencia de `jQuery` en su última versión.
 
 ¿Cómo se usa?
 -------------
-Incluya dentro de su proyecto los archivos `bs-dropzone.css` y `bs-dropzone.js` que debe descargar previamente.
+Incluya dentro de su proyecto el archivo `jq-collapse.js` que debe descargar previamente.
 
 ```html static
-<link rel="stylesheet" href="bs-dropzone.css">
-```
-```html static
-<script type="text/javascript" src="bs-dropzone.js"></script>
+<script type="text/javascript" src="jq-collapse.js"></script>
 ```
 
-#### Aplicación por defecto.
+### 1. Implementación
+La implementación por defecto está definida de la siguiente manera:
 
 ```html static
-<input type="file" name="file">
+<button type="button" id="ejecutar" data-jqcollapse-action="1">Ejecutar</button>
+<p data-jqcollapse-reaction="1">A menudo mis alumnos me preguntan...</p>
 ```
 ```js static
-// aplica arrastrar y soltar en el elemento :file
-$('#elemento').bs_dropzone();
+// implementación por defecto
+$('#ejecutar').jq_collapse();
 ```
