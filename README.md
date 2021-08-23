@@ -40,9 +40,9 @@ Para incluir animación en los elementos a ocultar o mostrar debe asignar valore
 ```js static
 // asignación de parámetros de manera general
 $('#ejecutar').jq_collapse({
-  slide: true,
-	fade: true,
-	time: 1
+    slide: true,
+    fade: true,
+    time: 1
 });
 ```
 
@@ -57,9 +57,9 @@ La posición en los elementos a ocultar o mostrar pueden ser definidos como hori
 ```js static
 // asignación de parámetros de manera general
 $('#ejecutar').jq_collapse({
-	type: 'horizontal', // horizontal o vertical
-	size: 200,
-	slide: true
+    type: 'horizontal', // horizontal o vertical
+    size: 200,
+    slide: true
 });
 ```
 
@@ -74,8 +74,8 @@ En los elementos a ocultar o mostrar se puede definir un parámetro con el cual 
 ```js static
 // asignación de parámetros de manera general
 $('#ejecutar').jq_collapse({
-	save: true,
-	storage: 'session' // session o local
+    save: true,
+    storage: 'session' // session o local
 });
 ```
 
@@ -92,10 +92,10 @@ Cuando el parámetro `responsive` está activado el tamaño del elemento cambiar
 ```js static
 // asignación de parámetros de manera general
 $('#ejecutar').jq_collapse({
-	responsive: false,
-	media: 768,
-	type: 'horizontal',
-	slide: true
+    responsive: false,
+    media: 768,
+    type: 'horizontal',
+    slide: true
 });
 ```
 
@@ -111,7 +111,7 @@ Cuando los elementos a ocultar o mostrar son ejecutados se disparan ciertos even
 
 ```js static
 $('#ejecutar').on('shown.jq.collapse', function () {
-	// código a ejecutar
+    // código a ejecutar
 });
 ```
 
