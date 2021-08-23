@@ -1,9 +1,9 @@
-bs-dropzone.js
+jq-collapse.js
 ==============
 
-Es una extensión para `jQuery` y `Bootstrap` que permite transformar visualmente un elemento de entrada para archivos `<input type="file">` en un elemento que permite los gestos de arrastrar y soltar dentro de una zona, es totalmente personalizable y permite hacer una llamada de función cuando el evento change es ejecutado.
+Es una extensión para `jQuery` que permite ocultar y mostrar el contenido de un elemento con algunos atributos de datos `data-*`, para su ejecución se necesita de un elemento que acciona y otro que reacciona con una animación de cambio de alto o ancho según sea el caso.
 
-Documentación y ejemplos [aquí](https://wilnicho.github.io/bs-dropzone.js).
+Documentación y ejemplos [aquí](https://wilnicho.github.io/jq-collapse.js).
 
 ¿Qué necesito?
 --------------
