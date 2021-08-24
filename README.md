@@ -126,4 +126,4 @@ Esta herramienta fue desarrollada pensando también para dar la funcionalidad de
 
 Licencia
 -------------------------
-MIT
+Copyright © 2020 Wilfredo Nina Choquetarqui; Publicado bajo la licencia MIT.
